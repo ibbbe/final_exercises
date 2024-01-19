@@ -11,6 +11,10 @@ body {
     background-color: #1F2937;
 }
 
+.hero {
+    padding-bottom: 50px;
+}
+
 .header img {
     font-size: 24px;
     font-weight: 900;
@@ -28,7 +32,8 @@ body {
     gap: 20px;
 }
 
-ul, a {
+ul,
+a {
     text-decoration: none;
     list-style: none;
     font-size: 18px;
@@ -37,14 +42,14 @@ ul, a {
 
 .main_text {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 h1 {
     font-size: 48px;
-    font-weight:bolder;
-    color:#F9FAF8;
+    font-weight: bolder;
+    color: #F9FAF8;
     margin-bottom: 0px;
 }
 
@@ -62,24 +67,56 @@ h1 {
 
 .right img {
     height: 200px;
-    width:500px;
+    width: 500px;
     display: flex;
-    align-content: baseline;
-    justify-content: center;
+    align-content: center;
     background-color: grey;
+    color: #F9FAF8;
+    text-align: center;
 }
 
- .button {
+.button {
     width: 120px;
     height: 40px;
     color: white;
-    background-color:cornflowerblue;
+    background-color: cornflowerblue;
     font-size: 18px;
     border-radius: 12px;
 }
 
 /* Second section */
 
+.title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
+.information {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
 
+.information img {
+    height: 150px;
+    width: 150px;
+    border-radius: 12px;
+    border: cornflowerblue;
+    border-style: solid;
+}
 
+.information p {
+    max-width: 150px;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 18px;
+    color: #1F2937;
+}
+
+/* Third section */
